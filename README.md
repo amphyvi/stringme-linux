@@ -51,5 +51,5 @@ I know, that's a really short list. Please feel free to try this on other DEs an
 * Some (most?) players only provide the first artist in multi-artist tracks when separated by commas. Seems the first one will show up no matter what.
 
 ## Special thanks
-- [noggynoggy](https://github.com/noggynoggy) - for creating the (now no longer available) "stringme-obs" solution I first used on Windows, which inspired this project
-- [ccatterina](https://github.com/ccatterina) - for [pointing me in the right direction](https://github.com/ccatterina/plasmusic-toolbar/discussions/223#discussioncomment-14095165) to get this project off the ground!
+- **[noggynoggy](https://github.com/noggynoggy)** - for creating the (now no longer available) "stringme-obs" solution I first used on Windows, which inspired this project
+- **[ccatterina](https://github.com/ccatterina)** - for [pointing me in the right direction](https://github.com/ccatterina/plasmusic-toolbar/discussions/223#discussioncomment-14095165) to get this project off the ground!
