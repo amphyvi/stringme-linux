@@ -26,7 +26,7 @@ This for sure works on Ubuntu + KDE, and should work on any system that supports
 5. Customize the text appearance in OBS as desired.
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
 
-## Known compatible desktop environemnts (DEs)
+## Known compatible desktop environments (DEs)
 - KDE
 
 I know, that's a really short list. Please feel free to try this on other DEs and let me know how it fares :)
