@@ -16,7 +16,7 @@ If you're using this with OBS, OBS will automatically update to reflect the new 
 
 This for sure works on Ubuntu + KDE, and should work on any system that supports MPRIS (most Linux desktop environments).
 
-> **Please note:** I know there's a large swath of potential features that could be added - album art capture, multiple artists capture (if that's even possible?), and album capture just to name a few. This was created to meet my own personal needs and I lack the understanding to expand on it much more than this. Contributions are not expected of course but are greatly appreciated <3
+> **Please note:** I know there's a large swath of potential features that could be added - album art capture, multiple artists capture (if that's even possible?), album capture, and OBS automation (so it launches automatically alongside OBS) just to name a few. This was created to meet my own personal needs and I lack the understanding to expand on it much more than this. Contributions are not expected of course but are greatly appreciated <3
 
 ## Usage
 1. Make sure you have Python and dbus-python installed (`pip3 install dbus-python`). If you're using a conventional Linux distro that came out sometime in the last decade, you should already be set.
@@ -24,7 +24,10 @@ This for sure works on Ubuntu + KDE, and should work on any system that supports
 3. Run the script, typically using your terminal: `python3 /path/to/stringme-linux.py`
 4. In OBS, add a Text (GDI+) source and check "Read from file". Select the stringme.txt file created by the script. By default, it'll be located in your home directory (`~`).
 5. Customize the text appearance in OBS as desired.
+
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
+
+After you've set it up the first time, just redo step #3 to get the text to show up in OBS again anytime you want it to be there.
 
 ## Known compatible desktop environments (DEs)
 - KDE
