@@ -21,7 +21,7 @@ This for sure works on Ubuntu + KDE, and should work on any system that supports
 ## Usage
 1. Make sure you have Python and dbus-python installed (`pip3 install dbus-python`). If you're using a conventional Linux distro that came out sometime in the last decade, you should already be set.
 2. Save `stringme-linux.py` to a safe spot on your Linux computer.
-3. Run the script, typically in your terminal: `python3 stringme-linux.py`
+3. Run the script, typically using your terminal: `python3 /path/to/stringme-linux.py`
 4. In OBS, add a Text (GDI+) source and check "Read from file". Select the stringme.txt file created by the script. By default, it'll be located in your home directory (`~`).
 5. Customize the text appearance in OBS as desired.
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
