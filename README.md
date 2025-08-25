@@ -24,3 +24,11 @@ environments).
 5. Customize the text appearance in OBS as desired.
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
 
+<img width="1884" height="1129" alt="image" src="https://github.com/user-attachments/assets/c73def00-0416-451b-8df1-381e90b65e38" />
+
+## Known issues
+* Only captures the first artist in multi-artist tracks. Seems to be a MPRIS2 limitation?
+
+## Special thanks
+- [noggynoggy](https://github.com/noggynoggy) - for creating the (now no longer available) "stringme-obs" solution I first used on Windows, which inspired this project
+- [ccatterina](https://github.com/ccatterina) - for [pointing me in the right direction](https://github.com/ccatterina/plasmusic-toolbar/discussions/223#discussioncomment-14095165) to get this project off the ground!
