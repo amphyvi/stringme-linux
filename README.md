@@ -25,9 +25,9 @@ This for sure works on Ubuntu + KDE, and should work on any system that supports
 4. In OBS, add a Text (GDI+) source and check "Read from file". Select the stringme.txt file created by the script. By default, it'll be located in your home directory (`~`).
 5. Customize the text appearance in OBS as desired.
 
-That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
+That's it! After you've set it up the first time, just **redo step #3** to get the text to show up in OBS again anytime you want it to be there.
 
-After you've set it up the first time, just redo step #3 to get the text to show up in OBS again anytime you want it to be there.
+As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
 
 ## Known compatible desktop environments (DEs)
 - **KDE Plasma 6.x**
