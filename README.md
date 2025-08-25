@@ -45,7 +45,7 @@ I know, that's a really short list. Please feel free to try this on other DEs an
 
 **Strawberry Music Player**: Didn't try it (I really don't vibe with the UI, sorry not sorry lmao) but given the list above, it should probably work too.
 
-**DeaDBeeF** - deb/native: I didn't get it to work, but other MPRIS2-compliant solutions (like ccatterina's spectacular [plasmusic-toolbar](https://github.com/ccatterina/plasmusic-toolbar)) _also_ don't catch DeaDBeeF so that could be a problem with the way mine is configured.
+**DeaDBeeF** - deb/native: I didn't get it to work, but other MPRIS2-compliant solutions (like [ccatterina](https://github.com/ccatterina)'s spectacular [plasmusic-toolbar](https://github.com/ccatterina/plasmusic-toolbar)) _also_ don't catch DeaDBeeF so that could be a problem with the way mine is configured.
 
 ## Known issues
 * Some (most?) players only provide the first artist in multi-artist tracks when separated by commas. Seems the first one will show up no matter what.
