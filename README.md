@@ -1,6 +1,8 @@
 # stringme-linux
 Music playback information file output for Linux-based systems
 
+<img width="1884" height="1129" alt="image" src="https://github.com/user-attachments/assets/c73def00-0416-451b-8df1-381e90b65e38" />
+
 #### You're a live streamer. You want to put credit on screen for the music you're listening to, in the easiest and most flexible way possible - somehow that's reliable, simple, and doesn't restrict your creative freedom. (And... you switched to Linux.)
 
 #### Does that describe you? Well, member of an infinitesimally-small fragment of modern society, I believe I have just the solution for you :)
@@ -23,8 +25,6 @@ environments).
 4. In OBS, add a Text (GDI+) source and check "Read from file". Select the stringme.txt file created by the script. By default, it'll be located in your home directory (`~`).
 5. Customize the text appearance in OBS as desired.
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
-
-<img width="1884" height="1129" alt="image" src="https://github.com/user-attachments/assets/c73def00-0416-451b-8df1-381e90b65e38" />
 
 ## Known issues
 * Only captures the first artist in multi-artist tracks. Seems to be a MPRIS2 limitation?
