@@ -3,9 +3,9 @@ Music playback information file output for Linux-based systems
 
 <img width="1884" height="1129" alt="image" src="https://github.com/user-attachments/assets/c73def00-0416-451b-8df1-381e90b65e38" />
 
-#### You're a live streamer. You want to put credit on screen for the music you're listening to, in the easiest and most flexible way possible - somehow that's reliable, simple, and doesn't restrict your creative freedom. (And... you switched to Linux.)
+**You're a live streamer. You want to put credit on screen for the music you're listening to, in the easiest and most flexible way possible - somehow that's reliable, simple, and doesn't restrict your creative freedom. (And... you switched to Linux.)**
 
-#### Does that describe you? Well, member of an infinitesimally-small fragment of modern society, I believe I have just the solution for you!
+**Does that describe you? Well, member of an infinitesimally-small fragment of modern society, I believe I have just the solution for you!**
 
 _________
 
