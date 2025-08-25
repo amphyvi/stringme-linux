@@ -37,7 +37,7 @@ I know, that's a really short list. Please feel free to try this on other DEs an
 ## Known compatible players (no particular order)
 - **Spotify** - deb/native
 - **Quod Libet** - deb/native
-- **Firefox** - Flatpak (tested YouTube, with `media.hardwaremediakeys.enabled` = `true` in about:config)
+- **Firefox** - Flatpak *(tested YouTube, with* `media.hardwaremediakeys.enabled` *=* `true` *in about:config)*
 - **Audacious** - deb/native
 - **Rhythmbox** - deb/native
 - **Haruna** - deb/native
