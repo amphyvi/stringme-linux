@@ -10,7 +10,7 @@ Music playback information file output for Linux-based systems
 _________
 
 ## Overview
-This script just writes the current song's artist & title to a text file. Pause/stop playback, or exit the script, to clear the file.
+This script just writes the current song's artist & title to a text file. Pause/stop playback, or exit the script (usually Ctrl + C), to clear the file.
 
 If you're using this with OBS, OBS will automatically update to reflect the new artist & song name whenever the file itself changes (within a second of the track changing). See Usage for setup.
 
