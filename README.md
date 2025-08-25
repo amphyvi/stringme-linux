@@ -30,22 +30,22 @@ That's it! As long as the script is running, it's updating that file for you. It
 After you've set it up the first time, just redo step #3 to get the text to show up in OBS again anytime you want it to be there.
 
 ## Known compatible desktop environments (DEs)
-- KDE
+- **KDE Plasma 6.x**
 
 I know, that's a really short list. Please feel free to try this on other DEs and let me know how it fares :)
 
 ## Known compatible players (no particular order)
-- Spotify
-- Quod Libet
-- Firefox (tested YouTube, with `media.hardwaremediakeys.enabled` = `true` in about:config)
-- Audacious
-- Rhythmbox
-- Haruna
-- Elisa
+- **Spotify** - deb/native
+- **Quod Libet** - deb/native
+- **Firefox** - Flatpak (tested YouTube, with `media.hardwaremediakeys.enabled` = `true` in about:config)
+- **Audacious** - deb/native
+- **Rhythmbox** - deb/native
+- **Haruna** - deb/native
+- **Elisa** - deb/native
 
-Strawberry Music Player: Didn't try it (I really don't vibe with the UI, sorry not sorry lmao) but given the list above, it should probably work too.
+**Strawberry Music Player**: Didn't try it (I really don't vibe with the UI, sorry not sorry lmao) but given the list above, it should probably work too.
 
-Deadbeef: I didn't get it to work, but other MPRIS2-compliant solutions (like ccatterina's spectacular [plasmusic-toolbar](https://github.com/ccatterina/plasmusic-toolbar)) _also_ don't catch DeaDBeeF so that could be a problem with the way mine is configured.
+**DeaDBeeF** - deb/native: I didn't get it to work, but other MPRIS2-compliant solutions (like ccatterina's spectacular [plasmusic-toolbar](https://github.com/ccatterina/plasmusic-toolbar)) _also_ don't catch DeaDBeeF so that could be a problem with the way mine is configured.
 
 ## Known issues
 * Some (most?) players only provide the first artist in multi-artist tracks when separated by commas. Seems the first one will show up no matter what.
