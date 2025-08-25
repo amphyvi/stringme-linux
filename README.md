@@ -10,7 +10,7 @@ Music playback information file output for Linux-based systems
 _________
 
 ## Overview
-This script just writes the current song's artist & title to a text file.
+This script just writes the current song's artist & title to a text file. Pause/stop playback, or exit the script, to clear the file.
 
 If you're using this with OBS, OBS will automatically update to reflect the new artist & song name whenever the file itself changes (within a second of the track changing). See Usage for setup.
 
@@ -26,13 +26,19 @@ This for sure works on Ubuntu + KDE, and should work on any system that supports
 5. Customize the text appearance in OBS as desired.
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
 
-## Known compatible players
+## Known compatible players (no particular order)
 - Spotify
 - Quod Libet
 - Firefox (with YouTube & `media.hardwaremediakeys.enabled` = `true` in about:config)
+- Audacious
+- Rhythmbox
+- Haruna
+- Elisa
+Didn't try Strawberry (I really don't vibe with the UI, sorry not sorry lmao) but given the list above, it should probably work too.
+I did _not_ get this working with DeaDBeeF, but other MPRIS2-compliant solutions (like ccatterina's spectacular [plasmusic-toolbar](https://github.com/ccatterina/plasmusic-toolbar)) also don't catch DeaDBeeF so that could be a problem with the way mine is configured.
 
 ## Known issues
-* Only captures the first artist in multi-artist tracks. Seems to be a MPRIS2 limitation?
+* Some (most?) players only provide the first artist in multi-artist tracks when separated by commas. Seems the first one will show up no matter what.
 
 ## Special thanks
 - [noggynoggy](https://github.com/noggynoggy) - for creating the (now no longer available) "stringme-obs" solution I first used on Windows, which inspired this project
