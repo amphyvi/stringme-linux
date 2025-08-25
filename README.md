@@ -37,7 +37,7 @@ I know, that's a really short list. Please feel free to try this on other DEs an
 ## Known compatible players (no particular order)
 - Spotify
 - Quod Libet
-- Firefox (with YouTube & `media.hardwaremediakeys.enabled` = `true` in about:config)
+- Firefox (tested YouTube, with `media.hardwaremediakeys.enabled` = `true` in about:config)
 - Audacious
 - Rhythmbox
 - Haruna
