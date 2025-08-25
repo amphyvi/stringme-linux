@@ -8,7 +8,7 @@ Music playback information file output for Linux-based systems
 _________
 
 ## Overview
-This script just writes the current song's artist & title to a text file (OUTPUT_FILE).
+This script just writes the current song's artist & title to a text file.
 
 If you're using this with OBS, OBS will automatically update to reflect the new artist & song name whenever
 the file itself changes (within a second of the track changing). See Usage for setup.
