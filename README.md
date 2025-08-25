@@ -24,4 +24,3 @@ environments).
 5. Customize the text appearance in OBS as desired.
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
 
-<img width="1884" height="1129" alt="image" src="https://github.com/user-attachments/assets/ab471014-3800-440a-a814-c35ca69a0d0f" />
