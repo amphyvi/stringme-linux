@@ -35,7 +35,8 @@ That's it! As long as the script is running, it's updating that file for you. It
 - Haruna
 - Elisa
 
-Strawberry: Didn't try it (I really don't vibe with the UI, sorry not sorry lmao) but given the list above, it should probably work too.
+Strawberry Music Player: Didn't try it (I really don't vibe with the UI, sorry not sorry lmao) but given the list above, it should probably work too.
+
 Deadbeef: I didn't get it to work, but other MPRIS2-compliant solutions (like ccatterina's spectacular [plasmusic-toolbar](https://github.com/ccatterina/plasmusic-toolbar)) _also_ don't catch DeaDBeeF so that could be a problem with the way mine is configured.
 
 ## Known issues
