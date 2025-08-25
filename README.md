@@ -26,6 +26,11 @@ environments).
 5. Customize the text appearance in OBS as desired.
 That's it! As long as the script is running, it's updating that file for you. It'll check once per second to see if the track info has changed, and if so, the file - and the text on screen in OBS - will update accordingly.
 
+## Known compatible players
+- Spotify
+- Quod Libet
+- Firefox (with YouTube & `media.hardwaremediakeys.enabled` = `true` in about:config)
+
 ## Known issues
 * Only captures the first artist in multi-artist tracks. Seems to be a MPRIS2 limitation?
 
