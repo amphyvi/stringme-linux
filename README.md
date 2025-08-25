@@ -34,7 +34,7 @@ As long as the script is running, it's updating that file for you. It'll check o
 
 I know, that's a really short list. Please feel free to try this on other DEs and let me know how it fares :)
 
-## Known compatible players (no particular order)
+## Tested & working players (no particular order)
 - **Spotify** - deb/native
 - **Quod Libet** - deb/native
 - **Firefox** - Flatpak *(tested YouTube, with* `media.hardwaremediakeys.enabled` *=* `true` *in about:config)*
