@@ -16,7 +16,7 @@ If you're using this with OBS, OBS will automatically update to reflect the new 
 
 This for sure works on Ubuntu + KDE, and should work on any system that supports MPRIS (most Linux desktop environments).
 
-> **Please note:** I know there's a large swath of potential features that could be added - album art capture, multiple artists capture (if that's even possible?), album capture, and OBS automation (so it launches automatically alongside OBS) just to name a few... this last one has been breaking my brain and I can't get it to work, I'm going to blame Flatpak on this one I think. Anyway, this whole project was created to meet my own personal needs and I lack the understanding to expand on it much more than this. Contributions are not expected of course but are greatly appreciated <3
+> **Please note:** I know there's a large swath of potential features that could be added - album art capture, multiple artists capture (if that's even possible?), album capture, and OBS automation (so it launches automatically within OBS) just to name a few... this last one has been breaking my brain and I can't get it to work, I'm going to blame Flatpak on this one I think. Anyway, this whole project was created to meet my own personal needs and I lack the understanding to expand on it much more than this. Contributions are not expected of course but are greatly appreciated <3
 
 ## Usage
 1. Make sure you have Python and dbus-python installed (`pip3 install dbus-python`). If you're using a conventional Linux distro that came out sometime in the last decade, you should already be set.
