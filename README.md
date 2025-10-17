@@ -16,7 +16,7 @@ This script just writes the current song's artist & title to a text file. Pause/
 Use arguments to customize your experience:
 - `-lower` - output is all lowercase
 - `-UPPER` - OUTPUT IS ALL UPPERCASE
-- `-art` - Output not just a text file with track info, but grab album art from the audio player to a .jpg file, too (YMMV). **Image is deleted** alongside track info being cleared (pausing playback or exiting script)
+- `-art` - Output not just a text file with track info, but grab album art from the audio player to a .jpg file, too (YMMV). **Please see the Usage section below for using album art capture**, it's not complicated but has some things to keep in mind!
 
 If you're using this with OBS, OBS will automatically update changes made to the text file, showing the new artist & song name, whenever the file itself changes (within 1 second). Not sure how to use a script like this? See Usage below for setup.
 
@@ -35,6 +35,11 @@ This for sure works on Kubuntu (Ubuntu + KDE Plasma), and should work on any sys
 That's it! After you've set it up the first time, just **redo step #3** to get the text (and album art, if using `-art`) to show up in OBS again anytime you want it to be there.
 
 As long as the script is running, it's updating the file(s) for you. It'll check once per second to see if the track info has changed, and if so, the file(s) - and the info on screen in OBS - will update accordingly.
+
+Some tips on using `-art`:
+- **The .jpg image is deleted** alongside track info being cleared (pausing playback or exiting script), so have audio playing when setting things up in OBS/etc.
+- For the image source, OBS (and, presumably, other streaming apps) will automatically re-recognize the .jpg file when it's put back in the same spot with the same name, so you just need to set it up the first time. You can then re-add the same image source anytime you want, whether in the same scene or other scenes.
+- The album art itself can change size. So, I highly recommend right-clicking the image source, then going to Transform > Edit Transform... From there, set a *bounding box* size, and set it to stretch to the bounding box. You can then hold Shift and drag a corner to resize 1:1 and the image inside will always fill whatever size you specify.
 
 ## Known compatible desktop environments (DEs)
 - **KDE Plasma 6.x**
